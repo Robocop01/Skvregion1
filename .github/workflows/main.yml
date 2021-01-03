@@ -65,7 +65,7 @@ jobs:
           --description "CoimmiSHA-${{ github.sha }}"
            
       - name: Deploy new ElasticBeanstalk Application Version
-        run : aws elasticbeanstalk update-enviroment --enviroment-name ${{ env.EB_ENVIROMENT_NAME }} --version-lable "Ver-${{ github.sha }}" 
+        run : aws elasticbeanstalk update-environment --enviroment-name ${{ env.EB_ENVIROMENT_NAME }} --version-lable "Ver-${{ github.sha }}" 
            
       - name: Print Happy Message for CD finish
         run:  echo "CD Piople part Finished successfully!"    
