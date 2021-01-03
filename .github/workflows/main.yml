@@ -9,16 +9,10 @@ env:
   DEPLOY_PACKAGE_NAME       : "flask_app_${{ github.sha }}.zip"
   AWS_REGION_NAME           : "us-west-2"
   
-  # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: 
       - main
-        
-#    branches: [ main ]
-#  pull_request:
-#    branches: [ main ]
 
 jobs:
   my_ci_part:
