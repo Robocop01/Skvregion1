@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     
     # Steps represent a sequence of tasks that will be executed as part of the job
-#    steps:
- #     - name: Git clone our repo 
- #     - uses: actions/checkout@v2
+    steps:
+      - name: Git clone our repo 
+        uses: actions/checkout@v2
 
  #     - name: Create ZIP deployment package
   #      run: zip -r ${{ env.DEPLOY_PACKAGE_NAME }} ./ -x *.git*
