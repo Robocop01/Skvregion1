@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions 
 # every step must define a `uses` or `run` key
-# 2
+# 3
 
 name: CI-CD-Pipeline-to-AWS-ElasticBeastalk
 env:
